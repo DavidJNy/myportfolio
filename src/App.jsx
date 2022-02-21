@@ -21,3 +21,7 @@ function App() {
 }
 
 export default App;
+
+// do some tailwind css (2/20/2022) make it look purty
+// fix that nav bar to static on top and then add a footer at the bottom
+//try to add form to google site domain.
