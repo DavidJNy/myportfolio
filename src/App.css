@@ -1,3 +1,16 @@
+.main {
+  background-color: rgba(255, 223, 223, 0.822);
+}
+
+.Navbar {
+  float: top;
+}
+
+
+/*
+Font Awesome
+https://react-icons.github.io/react-icons/icons?name=fa
+
 .App {
   text-align: center;
 }
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

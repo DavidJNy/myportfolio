@@ -1,31 +1,23 @@
 export const projects = [
     {
-        title: "React Reserve",
+        title: "Jimmy's Beauty Cut",
         subtitle: "MERN Stack",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Appointment app for Jimmy's Beauty Cuts",
         image: "./project-1.gif",
         link: "https://reactbootcamp.com",
     },
     {
-        title: "React Tracks",
-        subtitle: "React and Python",
+        title: "Rally Neighbor",
+        subtitle: "Tennis finder app",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Find local friends interested in playing tennis at the local park",
         image: "./project-2.gif",
         link: "https://reedbarger.com",
     },
     {
-        title: "DevChat",
-        subtitle: "React and Firebase",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
-        link: "https://jsbootcamp.com",
-    },
-    {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
+        title: "Untitled",
+        subtitle: "TBD",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-4.gif",
