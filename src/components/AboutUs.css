@@ -1,0 +1,26 @@
+.AboutUs {
+    font-family: Brushstroke;
+    height: 500px;
+    width: 100%;
+}
+
+.container {
+    display: inline-block;
+}
+
+#body_text {
+}
+
+.introduction {
+}
+
+.description {
+}
+
+@media (min-width: 768px) {
+    
+}
+
+#mepro {
+    width: 20%;
+}

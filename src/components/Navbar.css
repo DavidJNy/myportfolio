@@ -1,22 +1,19 @@
-.Mainnavbar {
-    background-color: rgb(255, 255, 255);
-    float: top;
-    padding: 200;
-    margin: 200;
-    overflow: hidden;
-    background-color: rgb(189, 189, 189);
+#clogo {
+    border-radius: 10%;
+    margin-bottom: 15px;
 }
 
-img {
-    border-radius: 20%;
+.title {
+    color: red;
+    font-size: 55px;
+    font-family: Orbitron;
+    padding-left: 15px;
+    font-weight: 900;
 }
 
-.Title {
-
-}
-
-.BundleLinks {
-
+#basic-navbar-nav {
+    font-family: Orbitron Black;
+    font-size: large;
 }
 
 /*  https://react-bootstrap.github.io/components/navbar/ */ 

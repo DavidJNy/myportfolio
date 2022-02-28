@@ -3,9 +3,9 @@ import { projects } from '../data';
 
 function Projects() {
     return (
-        <section>
-            <div >
-                <div>
+        <container>
+            <div class="p-3 mb-2 bg-dark text-white">
+                <div class=" ">
                     <h1>
                         Projects and future apps
                     </h1>
@@ -31,7 +31,7 @@ function Projects() {
                     ))}
                 </div>
             </div>
-        </section>
+        </container>
     );
 }
 

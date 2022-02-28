@@ -1,17 +1,18 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
+import NavigationBar from "./components/Navibar";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Footer from './components'; Need to add later
 
 import './App.css';
 
 function App() {
   return (
-    <main className='main'>
-      <Navbar />
+    <main className='main' class="bg-black">
+      <NavigationBar />
       <AboutUs/>
       <Projects />
       <Skills />

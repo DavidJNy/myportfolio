@@ -5,7 +5,7 @@ export const projects = [
         description:
             "Appointment app for Jimmy's Beauty Cuts",
         image: "./project-1.gif",
-        link: "https://reactbootcamp.com",
+        link: "",
     },
     {
         title: "Rally Neighbor",
@@ -13,16 +13,8 @@ export const projects = [
         description:
             "Find local friends interested in playing tennis at the local park",
         image: "./project-2.gif",
-        link: "https://reedbarger.com",
-    },
-    {
-        title: "Untitled",
-        subtitle: "TBD",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
-    },
+        link: "",
+    }
 ];
 
-export const skills = [ "HTML", "CSS", "Javascript", "React"];
+export const skills = [ "HTML", "CSS", "Javascript", "React", "Bootstrap", "Node.js *", "MongoDB *", "Express *" ];
