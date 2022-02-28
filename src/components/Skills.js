@@ -1,6 +1,6 @@
 import React from 'react'
 import { skills } from "../data";
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle, FaRegSmileWink} from 'react-icons/fa';
 
 function Skills() {
     return (
@@ -8,13 +8,8 @@ function Skills() {
             <div>
                 <div>
                     <h1>
-                        Here is a list of Skills and Accomplishments under my belt.
+                        List of Skills and Accomplishments
                     </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-                        ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-                        possimus est.
-                    </p>
                 </div>
                 <div>
                     {skills.map((skill) => (
@@ -28,9 +23,13 @@ function Skills() {
                         </div>
                     ))}
                 </div>
+                <p>*following skills are in progress.
+                <br/> <FaRegSmileWink /></p> 
             </div>
         </section>
     );
 }
 
 export default Skills;
+
+//https://react-bootstrap.netlify.app/components/cards/
