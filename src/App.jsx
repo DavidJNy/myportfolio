@@ -11,9 +11,9 @@ import './App.css';
 
 function App() {
   return (
-    <main className='main' class="bg-black">
-      <NavigationBar />
-      <AboutUs/>
+    <main className='main bg-black'>
+      <NavigationBar/>
+      <AboutUs class="AboutUs"/>
       <Projects />
       <Skills />
       <ContactUs />

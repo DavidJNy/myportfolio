@@ -3,7 +3,7 @@ import { projects } from '../data';
 
 function Projects() {
     return (
-        <container>
+        <div class="container bg-dark text-light">
             <div class="p-3 mb-2 bg-dark text-white">
                 <div class=" ">
                     <h1>
@@ -31,7 +31,7 @@ function Projects() {
                     ))}
                 </div>
             </div>
-        </container>
+        </div>
     );
 }
 

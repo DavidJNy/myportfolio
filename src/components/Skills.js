@@ -4,7 +4,7 @@ import { FaCheckCircle, FaRegSmileWink} from 'react-icons/fa';
 
 function Skills() {
     return (
-        <section>
+        <div class="container bg-dark text-light">
             <div>
                 <div>
                     <h1>
@@ -26,7 +26,7 @@ function Skills() {
                 <p>*following skills are in progress.
                 <br/> <FaRegSmileWink /></p> 
             </div>
-        </section>
+        </div>
     );
 }
 
