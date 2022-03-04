@@ -23,9 +23,10 @@ function App() {
 
 export default App;
 
-// do some css (2/20/2022) make it look purty
+// do some css (2/20/2022) make it look purty (DONE but always room for improvements)
 // fix that nav bar to static on top and then add a footer at the bottom
 // https://www.ibrahima-ndaw.com/blog/build-a-sticky-nav-with-react/
 // try to add form to google site domain.
 // add a favicon (priority low) favicon.io/favicon-converter/
 // make rasiberry pi a server and do backend.
+//extra, make gif, or add video for thai cooking.
