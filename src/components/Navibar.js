@@ -7,6 +7,7 @@ import './Navbar.css'
 
 function NavigationBar() {
     return (
+        <div class="Nbar sticky-top">
         <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" >
                 <Container>
                     <Navbar.Brand class="display-1">
@@ -15,7 +16,7 @@ function NavigationBar() {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" class="nav justify-content-end"/>
                         <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto border-bottom">
+                    <Nav className="ms-auto">
                             <Nav.Link href="Home"><FaHome /> Home</Nav.Link>
                             <Nav.Link href="Projects"><FaReact /> Projects</Nav.Link>
                             <Nav.Link href="Contact_Us"><FaPhone /> Contact Us</Nav.Link>
@@ -23,6 +24,7 @@ function NavigationBar() {
                     </Navbar.Collapse>
                 </Container>
         </Navbar>
+        </div>
     );
 }
 

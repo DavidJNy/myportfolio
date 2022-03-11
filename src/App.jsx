@@ -13,7 +13,7 @@ function App() {
   return (
     <main className='main bg-black'>
       <NavigationBar/>
-      <AboutUs class="AboutUs"/>
+      <AboutUs/>
       <Projects />
       <Skills />
       <ContactUs />

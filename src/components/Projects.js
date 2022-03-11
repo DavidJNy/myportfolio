@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div class="container bg-dark text-light">
             <div class="p-3 mb-2 bg-dark text-white">
-                <div class=" ">
+                <div class="p-3 mb-2 text-light">
                     <h1>
                         Projects and future apps
                     </h1>
@@ -15,7 +15,7 @@ function Projects() {
                 </div>
                 <div>
                     {projects.map((project) => (
-                        <a href={project.link} key={project.image}>
+                        <a class="card" href={project.link} key={project.image}>
                             <div>
                                 <div>
                                     <h2>

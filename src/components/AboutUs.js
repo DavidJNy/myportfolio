@@ -6,8 +6,8 @@ import './AboutUs.css';
 
 function AboutUs() {
     return (
-        <>
-            <div class="container p-3 mb-2 bg-dark " >
+        <div>
+            <div class="vh-100 container p-3 mb-2 bg-dark " >
                 <h1 class="display-1 p-3 mb-2 text-light d-flex justify-content-center">
                         <u>Welcome to PrickTox!</u>
                     </h1>
@@ -29,8 +29,10 @@ function AboutUs() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
 export default AboutUs;
+
+//Maybe add https://codepen.io/wefiy/pen/WPpEwo (Tacky matrix wallpaper behind logo) :)

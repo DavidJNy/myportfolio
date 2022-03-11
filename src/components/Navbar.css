@@ -16,4 +16,8 @@
     font-size: large;
 }
 
+.Nbar {
+  border-bottom: 3px solid red;
+}
+
 /*  https://react-bootstrap.github.io/components/navbar/ */ 
