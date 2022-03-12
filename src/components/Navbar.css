@@ -17,7 +17,12 @@
 }
 
 .Nbar {
-  border-bottom: 3px solid red;
+    border-bottom: 3px solid red;
 }
+
+.navbar{
+    margin-bottom:-6 !important;
+}
+
 
 /*  https://react-bootstrap.github.io/components/navbar/ */ 

@@ -1,0 +1,9 @@
+.text-break {
+    border-radius: 45%;
+    margin-left: 8px;
+}
+
+.col-3 {
+    display: block;
+    margin-bottom: 5px;
+}

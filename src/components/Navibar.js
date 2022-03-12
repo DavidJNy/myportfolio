@@ -8,12 +8,12 @@ import './Navbar.css'
 function NavigationBar() {
     return (
         <div class="Nbar sticky-top">
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" >
+            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" >
                 <Container>
-                    <Navbar.Brand class="display-1">
-                        <img alt="logo" src={ChiliLogo} width="75" height="75" id="clogo"/>
+                    <Navbar class="display-3">
+                        <img alt="logo" src={ChiliLogo} width="60" height="60" id="clogo"/>
                         <span className="title">Prick Tox</span>
-                        </Navbar.Brand>
+                        </Navbar>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" class="nav justify-content-end"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
@@ -23,7 +23,7 @@ function NavigationBar() {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
-        </Navbar>
+            </Navbar>
         </div>
     );
 }

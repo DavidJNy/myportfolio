@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { projects } from '../data';
+import './Projects.css';
 
 function Projects() {
     return (
         <div class="container bg-dark text-light">
             <div class="p-3 mb-2 bg-dark text-white">
-                <div class="p-3 mb-2 text-light">
+                <div class="p-3 mb-2 text-light text-center">
                     <h1>
                         Projects and future apps
                     </h1>
@@ -13,14 +14,12 @@ function Projects() {
                         Here is a list of my projects and prospective projects.
                     </p>
                 </div>
-                <div>
+                <div class="row">
                     {projects.map((project) => (
-                        <a class="card" href={project.link} key={project.image}>
+                        <a class="card" href={project.link} key={project.title}>
+                            <img class="" src={project.image} alt="" />
                             <div>
                                 <div>
-                                    <h2>
-                                        {project.subtitle}
-                                    </h2>
                                     <h4>
                                         {project.title}
                                     </h4>
