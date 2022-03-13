@@ -17,6 +17,9 @@ function App() {
       <Projects />
       <Skills />
       <ContactUs />
+      <div class="h0x3r"> 
+        <button></button>
+      </div>
     </main>
   );
 }
@@ -28,5 +31,10 @@ export default App;
 // https://www.ibrahima-ndaw.com/blog/build-a-sticky-nav-with-react/
 // try to add form to google site domain.
 // add a favicon (priority low) favicon.io/favicon-converter/
+// extra, make gif, or add video for thai cooking.
+// add hacker button bottom right. link to video
+// reinstall bootstrap
+
+
+//Low priotioy
 // make rasiberry pi a server and do backend.
-//extra, make gif, or add video for thai cooking.

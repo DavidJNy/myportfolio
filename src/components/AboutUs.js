@@ -6,7 +6,7 @@ import './AboutUs.css';
 
 function AboutUs() {
     return (
-        <div>
+        <div id="Home">
             <div class="vh-100 container p-3 mb-2 bg-dark " >
                 <h1 class="display-1 p-3 mb-2 text-light d-flex justify-content-center">
                         <u>Welcome to PrickTox!</u>
