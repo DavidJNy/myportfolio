@@ -1,4 +1,5 @@
 import React from 'react'
+import './ContactUs.css'
 
 function ContactUs () {
     const [name, setName] = React.useState("");
@@ -75,7 +76,7 @@ function ContactUs () {
                         I'm looking all types of work so feel free to contact me.
                     </p>
                     <div className="relative mb-4">
-                        <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+                        <label htmlFor="name" className="pr-1.5 leading-7 text-sm text-gray-400 r-1">
                             Name
                         </label>
                         <input
@@ -87,7 +88,7 @@ function ContactUs () {
                         />
                     </div>
                     <div className="relative mb-4">
-                        <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                        <label htmlFor="email" className="pr-1.5 leading-7 text-sm text-gray-400">
                             Email
                         </label>
                         <input

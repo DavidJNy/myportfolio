@@ -8,7 +8,7 @@ import './Navbar.css'
 function NavigationBar() {
     return (
         <div class="Nbar" >
-            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" class="">
                 <Container>
                     <Navbar class="display-3">
                         <img alt="logo" src={ChiliLogo} width="60" height="60" id="clogo"/>
