@@ -30,4 +30,6 @@ function Skills() {
 
 export default Skills;
 
+//adjust the skills so they don't break. use CSS !important
+
 //https://react-bootstrap.netlify.app/components/cards/
