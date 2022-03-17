@@ -1,6 +1,5 @@
-import React from 'react'
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import './ContactUs.css'
+import React from 'react';
+import './ContactUs.css';
 
 function ContactUs () {
     const [name, setName] = React.useState("");
@@ -14,6 +13,7 @@ function ContactUs () {
             )
             .join("&");
     }
+
     function handleSubmit(e) {
             e.preventDefault();
             fetch("/", {
@@ -32,13 +32,13 @@ function ContactUs () {
                     <header class="display-1 text-center">Contact Us</header>
                     <iframe
                         width="100%"
-                        height="100%"
+                        height="500px"
                         title="map"
                         className="absolute inset-0"
                         frameBorder={0}
                         marginHeight={0}
                         marginWidth={0}
-                        style={{ filter: "opacity(0.7)" }}
+                        style={{ filter: "opacity(1)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=North+Hollywood,+Ca&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -66,7 +66,6 @@ function ContactUs () {
                     </div>
                 </div>
                 <form
-                    netlify
                     onSubmit={handleSubmit}
                     name="contact"
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

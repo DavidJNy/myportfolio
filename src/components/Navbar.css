@@ -4,25 +4,14 @@
 }
 
 .title {
-    color: red;
     font-size: 55px;
     font-family: Orbitron;
     padding-left: 15px;
     font-weight: 900;
 }
 
-#basic-navbar-nav {
-    font-family: Orbitron Black;
-    font-size: large;
-}
-
-.Nbar {
+.Navbar {
     border-bottom: 3px solid red;
-}
-
-.navbar{
-    margin-bottom:-6 !important;
-    scroll-margin-top: 20px;
 }
 
 
