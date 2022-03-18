@@ -4,6 +4,7 @@ import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Crypto from "./components/Crypto.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Footer from './components'; Need to add later
 
@@ -15,7 +16,8 @@ function App() {
       <NavigationBar/>
       <AboutUs/>
       <Projects />
-      <Skills />
+      <Crypto/>
+      <Skills/>
       <ContactUs />
       <div class="h0x3r"> 
         <button></button>
