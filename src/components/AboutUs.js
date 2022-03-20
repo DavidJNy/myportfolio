@@ -1,10 +1,9 @@
-import React from 'react';
 import ProPix from './images/meprofile.jpg';
 import './AboutUs.css';
-// import { Container } from 'react-bootstrap';
-
 
 function AboutUs() {
+
+    
     return (
         <div id="Home">
             <div class="vh-100 container p-3 mb-2 bg-dark " >

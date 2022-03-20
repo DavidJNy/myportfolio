@@ -7,6 +7,7 @@ const Crypto = () => {
             <TradingViewWidget 
                 symbol="BTCUSD"
                 locale="en"
+                timezone= "America/Los_Angeles"
                 autosize
                 Themes="LIGHT"
                 RangeTypes="ALL"
