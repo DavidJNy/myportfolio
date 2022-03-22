@@ -1,36 +1,31 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from "react";
 
 function CNorris() {
 
-    const [joke, setJoke] = useState(["You ready for some Jokes?"])
-    
-    useEffect(() => {
-        fetch("https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random", {
-            "method": "GET",
-            "headers": {
-                "accept": "application/json",
-                "x-rapidapi-host": "matchilling-chuck-norris-jokes-v1.p.rapidapi.com",
-                "x-rapidapi-key": 
-            }
-        })
-            .then(response => {
-                console.log(response);
-                const data = response.json();
-                console.log(data);
-            })
-            .then(data => {
-                console.log(data);
-            })
-            .catch(err => {
-                console.error(err);
-            });
-        
+    const [data, setData] = useState(null);
+    // const [loading, setLoading] = useState(true);
+    // const [error, setError] = useState(null);
+
+    const fetchFacts = () => {
+        fetch("https://api.chucknorris.io/jokes/random").then(response => {
+        return response.json();
     })
-    
+    .then(actualData => {
+        // console.log(actualData.value);
+        setData(actualData.value);
+    })
+    .catch(err => {
+        console.error(err);
+    });
+    }
+
         return (
             <div class="container p-3 mb-2 bg-dark text-light" >
-            <header class='display 1'>Random Chuck Norris Quotes: {joke}</header>
-            <button type="button" class="btn btn-primary" onClick>New Chuck Norris Facts</button>
+                <div class='row p-3' >
+                    <h4 class='col-sm pt-2 p'>Random Chuck Norris Quotes: </h4>
+                    <button class="btn btn-primary col-sm py2" type="button" onClick={fetchFacts}>Click here for funny Chuck Norris facts</button>
+                </div>
+            <span>{data}</span>
         </div>
     )
 }
