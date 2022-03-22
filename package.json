@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "homepage": "https://www.pricktox.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.27",
