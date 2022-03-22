@@ -2,6 +2,10 @@
     font-family: Brushstroke;
 }
 
+#begin {
+    background-image: '';
+}
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
