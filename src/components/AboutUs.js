@@ -14,7 +14,7 @@ function AboutUs() {
                         <iframe class='p-3 justify-content-center' width="420" height="250" src="https://www.youtube.com/embed/igN_xplhm9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     {/* my mom said to put this picture on my computer or anything as a form of goodluck. she probably got it from a buddhist monk that tells the futures. i don't know what it is. she won't tell me exactly cuz my own mother can't speak proper english. sooooooo......its there. i'm stuck in on the website. its also on my phone. cuz i'm a good son. ok. this comment is a long one. bye */}
-                    <img class='p-3' src={luckyPic} style={{width:'200px'}}></img>
+                    <img alt='' class='p-3' src={luckyPic} style={{width:'200px'}}></img>
                 </h1>
             </div>
             <div class="container p-3 mb-2 bg-dark">
