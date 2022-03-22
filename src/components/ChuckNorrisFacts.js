@@ -5,7 +5,8 @@ function CNorris() {
     const [data, setData] = useState(null);
     // const [loading, setLoading] = useState(true);
     // const [error, setError] = useState(null);
-
+    //why isn't this updated to github?
+    
     const fetchFacts = () => {
         fetch("https://api.chucknorris.io/jokes/random").then(response => {
         return response.json();
