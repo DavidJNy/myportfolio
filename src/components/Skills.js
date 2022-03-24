@@ -5,7 +5,7 @@ import './Skills.css';
 
 function Skills() {
     return (
-        <div class="container bg-dark text-light">
+        <div class="container p-3 mb-2 bg-dark text-light">
                 <div class="text-center">
                     <h1>
                         List of Skills and Accomplishments
@@ -13,13 +13,11 @@ function Skills() {
                 </div>
                 <div class="row">
                     {skills.map((skill) => (
-                        <div class="col-3" key={skill}>
-                            <div class="justify-content-center">
+                        <div class="col-2 justify-content-center" key={skill}>
                                 <FaCheckCircle />
-                                <span class="text-break p-1 mb-1 bg-light text-dark">
+                                <span class="p-1 bg-light text-dark" id="skills">
                                     {skill}
                                 </span>
-                            </div>
                         </div>
                     ))}
                 </div>
@@ -29,5 +27,7 @@ function Skills() {
 }
 
 export default Skills;
+
+//adjust the skills so they don't break. use CSS !important
 
 //https://react-bootstrap.netlify.app/components/cards/
