@@ -40,5 +40,7 @@ export default App;
 // reinstall bootstrap
 
 
+//Invalid dom error is because there is a class='' somewhere. clean code.
+
 //Low priotioy
 // make rasiberry pi a server and do backend.
