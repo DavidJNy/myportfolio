@@ -11,17 +11,17 @@ function Skills() {
                         List of Skills and Accomplishments
                     </h1>
                 </div>
-                <div class="row">
+                <div class="row p-5">
                     {skills.map((skill) => (
-                        <div class="col-2 justify-content-center" key={skill}>
-                                <FaCheckCircle />
-                                <span class="p-1 bg-light text-dark" id="skills">
+                        <div class="d-flex col-2 p-1 justify-content-center" key={skill}>
+                                <FaCheckCircle class=''/>
+                                <span class="d-flex p-3 bg-light text-dark" id="skills">
                                     {skill}
                                 </span>
                         </div>
                     ))}
                 </div>
-            <p class=''>*following skills are in progress.&nbsp;&nbsp;<FaRegSmileWink /></p> 
+            <p class='p-3'>*following skills are in progress.&nbsp;&nbsp;<FaRegSmileWink /></p> 
         </div>
     );
 }

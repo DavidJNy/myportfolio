@@ -7,31 +7,29 @@ function AboutUs() {
     
     return (
         <div id="Home">
-            <div id="begin" class="vh-100 container p-3 mb-2 bg-dark">
-                <h1 class="display-1 p-3 mb-2 text-light d-flex justify-content-center">
-                    <div class='justify-content-center'>
-                        <u>Welcome to PrickTox!</u>
-                        <iframe class='p-3 justify-content-center' width="420" height="250" src="https://www.youtube.com/embed/igN_xplhm9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    {/* my mom said to put this picture on my computer or anything as a form of goodluck. she probably got it from a buddhist monk that tells the futures. i don't know what it is. she won't tell me exactly cuz my own mother can't speak proper english. sooooooo......its there. i'm stuck in on the website. its also on my phone. cuz i'm a good son. ok. this comment is a long one. bye */}
-                    <img alt='' class='p-3' src={luckyPic} style={{width:'200px'}}></img>
+            <div id="begin" class="vh-100 container p-3 mb-2 bg-dark ">
+                <h1 class="display-1 p-3 mb-2 text-light d-block">
+                    <u class='d-flex justify-content-center'>Welcome to PrickTox!</u>
                 </h1>
+                <iframe id='idframe' width="100%" height="80%" src="https://www.youtube.com/embed/qmN1Gf8rRc8?t=10&autoplay=1&mute=1&controls=0&disablekb=1&showinfo=0&autohide=1&loop=1&start=10&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             </div>
             <div class="container p-3 mb-2 bg-dark">
-                <div class="d-inline-flex p-2">
-                    <div class="d-inline-flex p-2 text-light" id="body_text">
+                <div class="d-flex flex-fill p-2">
+                    <div class="d-flex flex-column p-2 text-light" id="body_text">
                         <p class="display-5">My name is David Ny and I'm a web developer.</p>
-                        <p class="d-inline-flex p-2 align-self-center ">
+                        <p class="p-2">
                         The name PrickTox is a rough phonetic english transcription translation for fried chili in Thai. 
-                        <br/>Its a nice snack to have if you like spicy chips like hot chettos. It is very delicious.
+                        <br/>Its a nice snack to have if you like spicy chips like hot cheetos. It is very delicious.
                         </p>
                     </div>
-                    <div class="d-inline-flex p-2">
+                    <div class="d-flex flex-fill p-2">
                         <figure class="figure">
                             <img src={proPix} class="figure-img img-fluid rounded float-right" alt="mepro" />
                             <figcaption class="figure-caption text-end text-light">Me looking smashin' baby</figcaption>
-                    </figure>
+                        </figure>
+                        {/* my mom said to put this picture on my computer or anything as a form of goodluck. she probably got it from a buddhist monk that tells the futures. i don't know what it is. she won't tell me exactly cuz my own mother can't speak proper english. sooooooo......its there. i'm stuck in on the website. its also on my phone. cuz i'm a good son. ok. this comment is a long one. bye */}
                     </div>
+                    <img alt='LuckPic' class='d-flex p-3' width="200px" src={luckyPic}></img>
                 </div>
             </div>
         </div>

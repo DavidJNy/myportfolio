@@ -2,10 +2,20 @@
     font-family: Brushstroke;
 }
 
-#begin {
-    background-image: '';
+#myVideo {
+    position: fixed;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
 }
 
+#Home {
+    pointer-events: none;
+}
+
+.LuckPic {
+    max-width: 400px;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

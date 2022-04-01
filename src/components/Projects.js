@@ -8,10 +8,10 @@ function Projects() {
             <div class="p-3 mb-2 bg-dark text-white">
                 <div class="p-3 mb-2 text-light text-center">
                     <h1>
-                        Projects and future apps
+                        Future apps and projects
                     </h1>
                     <p>
-                        Here is a list of my projects and prospective projects.
+                        Here is a list of my prospective projects.
                     </p>
                 </div>
                 <div class="row">
