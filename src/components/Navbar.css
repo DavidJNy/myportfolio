@@ -1,18 +1,23 @@
 #clogo {
-    border-radius: 10%;
-    margin-bottom: 15px;
+    height: 30px;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
 }
 
-.title {
-    font-size: 55px;
+
+#sticky.nav {
+    position: top;
+    top: 0;
+
+}
+
+.navbar-brand {
+    font-size: 2em;
     font-family: Orbitron;
     padding-left: 15px;
-    font-weight: 900;
+    font-weight:500;
 }
 
-.Navbar {
-    border-bottom: 3px solid red;
+.collapse.navbar-collapse .active {
+    /* display: block; */
 }
-
-
-/*  https://react-bootstrap.github.io/components/navbar/ */ 

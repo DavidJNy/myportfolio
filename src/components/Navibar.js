@@ -1,31 +1,36 @@
 import React from 'react'
-import ChiliLogo from './images/spicychililogo.jpg'
-import { Nav, Navbar, Container } from 'react-bootstrap'
-import { FaHome, FaReact, FaPhone, FaBitcoin } from 'react-icons/fa';
+import ChiliLogo2 from './images/chililogo2.png'
+import { FaReact, FaPhone, FaBitcoin } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'
 
 function NavigationBar() {
+
     return (
-        
-        <Navbar sticky="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
-                <Container>
-                    <img alt="logo" src={ChiliLogo} width="60" height="60" id="clogo"/>
-                        <Navbar.Brand href ="/Home" className="title">Prick Tox</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" class=""/>
-                        <Navbar.Collapse id="">
-                        <Nav className="ms-auto" navbarScroll>
-                            <Nav.Link href="#Home"><FaHome /> Home</Nav.Link>
-                            <Nav.Link href="#Projects"><FaReact /> Projects</Nav.Link>
-                            <Nav.Link href="#Crypto"><FaBitcoin /> Crypto</Nav.Link>
-                            <Nav.Link href="#Contact_Us"><FaPhone /> Contact Us</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+        <nav class="navbar fixed-top bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Fixed top</a>
+            </div>
+        </nav>
     );
 }
 
 export default NavigationBar;
 
-// use this as guide https://react-bootstrap.github.io/components/navbar/
+{/* <Navbar className="stick-nav" fixed='top' expand="md" bg="dark" variant="dark">
+            <Container fluid>
+                <img alt="logo" src={ChiliLogo2} id="clogo"/>
+                <Navbar.Brand href ="/" className="title">Prick Tox</Navbar.Brand>
+                <Nav>
+
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse>
+                    <Nav>
+                        <Nav.Link href="#Projects"><FaReact /> Projects</Nav.Link>
+                        <Nav.Link href="#Crypto"><FaBitcoin /> Crypto</Nav.Link>
+                        <Nav.Link href="#Contact_Us"><FaPhone /> Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                </Nav>
+            </Container>
+        </Navbar> */}

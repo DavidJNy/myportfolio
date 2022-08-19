@@ -23,19 +23,6 @@ export default class ContactUs extends Component {
         
         return (
             <section id="Contact_Us" class="d-flex flex-column container bg-dark text-light p-3">
-                    <div class="">
-                        <header class="display-1 text-center">Contact Us</header>
-                        <iframe
-                            width="100%"
-                            height="500px"
-                            title="map"
-                            className="absolute inset-0"
-                            frameBorder={0}
-                            marginHeight={0}
-                            marginWidth={0}
-                            style={{ filter: "opacity(1)" }}
-                            src="https://www.google.com/maps/embed/v1/place?q=North+Hollywood,+Ca&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"/>
-                    </div>
                 <div>
                 <div class='row'>
                     <h2 class='col-2 p-3'>ADDRESS:</h2>

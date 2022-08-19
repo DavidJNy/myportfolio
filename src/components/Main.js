@@ -1,6 +1,6 @@
 import proPix from './images/meprofile.jpg';
 import luckyPic from './images/luckypic.jpg';
-import './AboutUs.css';
+import './Main.css';
 
 function AboutUs() {
 
@@ -11,7 +11,6 @@ function AboutUs() {
                 <h1 class="display-1 p-3 mb-2 text-light d-block">
                     <u class='d-flex justify-content-center'>Welcome to PrickTox!</u>
                 </h1>
-                <iframe id='idframe' width="100%" height="80%" src="https://www.youtube.com/embed/qmN1Gf8rRc8?t=10&autoplay=1&mute=1&controls=0&disablekb=1&showinfo=0&autohide=1&loop=1&start=10&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             </div>
             <div class="container p-3 mb-2 bg-dark">
                 <div class="d-flex flex-fill p-2">
